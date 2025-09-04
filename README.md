@@ -27,3 +27,17 @@ To run the tests for the project, run the following command:
 ```bash
 npm test
 ```
+
+## Documentation
+
+When the site is running, you should be able to test the following features:
+
+A Hello World button that shows an alert with the text “Hello World” and also prints the same message to the browser console.
+
+An Add Numbers form where you can enter two numbers and click the button to see their sum displayed on the page.
+
+A Random Joke button that fetches a single random joke from the Official Joke API and displays it on the page.
+
+A Five Jokes button that fetches five jokes from the API and displays them neatly in a table.
+
+An About Page that contains information about me.

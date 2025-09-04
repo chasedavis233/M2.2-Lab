@@ -10,7 +10,10 @@
  * This function prints the string 'Hello World' to the console
  */
 export function helloWorld() {
-    console.log('Hello World');
+  const msg = 'Hello World';
+  alert(msg);
+  console.log(msg);  
+  return msg;         
 }
 
 /**

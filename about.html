@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>About Me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+  </head>
+  <body>
+    <header class="site-header">
+      <h1>About Me</h1>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html" aria-current="page">About</a>
+      </nav>
+    </header>
+
+    <main class="container">
+  <section class="card about">
+    <img class="avatar" src="img/avatar.png" alt="Profile picture of Chase Davis" />
+    <div>
+      <h2>Quick Facts</h2>
+      <ul class="facts">
+        <li><strong>Name:</strong> Chase Davis</li>
+        <li><strong>Graduation target:</strong> December 2025</li>
+        <li><strong>Currently working in web dev?</strong> No</li>
+        <li><strong>Past web dev job/internship?</strong> No</li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+
+    <script type="module">
+      import { setYear } from './js/main.js';
+      setYear();
+    </script>
+  </body>
+</html>
